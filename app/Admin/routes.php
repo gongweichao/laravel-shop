@@ -10,5 +10,9 @@ Route::group([
 
     $router->get('/', 'HomeController@index');
     $router->resource('/goods', GoodsController::class);
+    $router->resource('/category', CategoryController::class);
+    $router->resource('/attr', AttrController::class);
+	
+	
 	
 });

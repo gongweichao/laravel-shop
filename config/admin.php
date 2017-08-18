@@ -43,7 +43,7 @@ return [
             'file'   => 'file',
         ],
 
-        'host' => 'http://localhost:8000/upload/',
+        'host' => 'http://www.myshop.dev/upload',
     ],
 
     /*

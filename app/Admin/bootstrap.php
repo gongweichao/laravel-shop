@@ -17,4 +17,8 @@
  * Admin::js('/packages/prettydocs/js/main.js');
  *
  */
+ 
+//use App\Admin\Exceptions\WangEditor;
+use Encore\Admin\Form;
+Form::forget('map');
 

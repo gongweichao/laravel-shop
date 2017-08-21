@@ -23,7 +23,7 @@ class AttrController extends Controller
             $content->description('列表');
 			$content->body($this->grid());
 		});
-	}
+	}	
 	public function edit($id){
 		return Admin::content(function (Content $content) use ($id){
 			$content->header('修改属性');
